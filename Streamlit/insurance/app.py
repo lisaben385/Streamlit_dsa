@@ -57,7 +57,7 @@ st.markdown("""
 # -- Data loading & modelling --------------------------------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("insurance.csv")
+    return pd.read_csv("Streamlit/insurance/insurance.csv")
 
 @st.cache_data
 def run_model(df):
